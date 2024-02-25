@@ -1,0 +1,97 @@
+.wd-modules,
+.wd-modules * {
+  border-radius: 0%;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.wd-modules {
+  margin: 5px;
+}
+
+.wd-modules > li {
+  background-color: lightgray;
+  border: 1px solid gray !important;
+  border-left: none !important;
+}
+
+.wd-modules > li > div {
+  padding: 6px;
+  border-left: 1px solid gray !important;
+}
+
+.wd-modules > li > ul > li {
+  padding: 5px;
+  border-top: 1px solid gray !important;
+  border-left: 2px solid green;
+}
+
+.wd-modules > li {
+  margin-bottom: 20px;
+}
+
+.normal {
+  padding-left: 20px !important;
+}
+
+.wd-top-button {
+  float: right;
+}
+
+.wd-top-button > button {
+  border-width: 0px;
+}
+
+.wd-top-button > select {
+  border-width: 0px;
+  background-color: rgb(224, 221, 221) !important;
+  color: black;
+}
+
+.module-button {
+  background-color: red;
+  color: white;
+}
+
+.unpublish-button {
+  border-width: 0px;
+}
+
+.publish-button {
+  border-width: 0px;
+  color: white;
+  background-color: green;
+}
+
+.wd-right-list {
+  list-style : none;
+}
+
+.wd-right-list > li {
+  background-color: lightgray;
+  margin-top: 10px;
+  border-left: none !important;
+  padding: 5px;
+}
+
+.wd-right-list > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.wd-link {
+  color: red;
+}
+
+.wd-zoom-links > li > a {
+  color: red;
+}
+
+.wd-zoom-links {
+  list-style : none;
+}
+
+.wd-zoom-links > li > p {
+  color: grey;
+}
